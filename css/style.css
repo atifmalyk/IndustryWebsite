@@ -1,0 +1,328 @@
+body {
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background-color: #efeeee;
+}
+/* ?Navbar Section */
+.nav-logo img {
+  height: 48px;
+  width: 48px;
+}
+.top-nav a {
+  color: black;
+  font-weight: 600;
+  font-size: 14px;
+  font-family: Barlow, sans-serif;
+}
+.top-nav a:hover {
+  color: grey;
+}
+.nav-menu a:hover {
+  background-color: transparent;
+}
+/* !NAVBAR ENDED */
+/* ?HEAD SECTION STARTED */
+.head-section {
+  background-color: #efeeee;
+  height: 637px;
+}
+.yellow-section {
+  background-color: #ffda00;
+  position: absolute;
+  width: 65%;
+  top: 0;
+  right: 0;
+  height: 100%;
+}
+.industry-img {
+  height: 429px;
+  width: 645px;
+  background-color: #efeeee;
+}
+/* ?Right Text */
+.right-text {
+  font-size: 22px;
+  line-height: 34px;
+
+  font-family: Barlow, sans-serif;
+  color: #333333;
+  letter-spacing: -1px;
+}
+.text-heading h1 {
+  font-weight: 600;
+}
+.right-footer p {
+  font-size: 22px;
+  color: #333333;
+}
+.side-text {
+  transform: rotate(90deg);
+  position: absolute;
+  right: 7%;
+  bottom: 16%;
+}
+/* !INDUSTRY SECTION ENDED */
+/* ?INDUSTRY EFFICIENCY SECTION STARTED */
+.efficiency-heading {
+  font-weight: 600;
+  font-family: Barlow, sans-serif;
+  line-height: 50px;
+  color: #333333;
+}
+.row-efficiency {
+  background-color: #efeeee;
+}
+.efficiency-para {
+  font-size: 17.6px;
+  font-family: Barlow, sans-serif;
+}
+.image-only {
+  background-image: url(../images/02.jpg);
+
+  height: 400px;
+  width: 678px;
+  position: relative;
+  opacity: 0;
+}
+.right-text-box {
+  background-color: #333333;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 337px;
+}
+.right-text-under {
+  width: 241px;
+  height: 209px;
+}
+.image-right-main:hover .right-text-box {
+  width: 675px;
+  transition-duration: 0.6s;
+  transition: all 1s;
+  background-color: transparent;
+}
+.image-right-main:hover .image-only {
+  transition-delay: 0.4s;
+  opacity: 1;
+  width: 662px;
+}
+.image-right-main:hover .right-text-under {
+  transition: all 1s;
+  transition-delay: 0.4s;
+  color: black;
+}
+/* !EFIICENCY PORTION ENDED */
+
+/* ?TEAM PRODUCTION FACTORY SECTION STARTED */
+.row-team {
+  background-color: #efeeee;
+  overflow: hidden;
+}
+.team-img {
+  background-image: url(../images/05.jpg);
+  height: 400px;
+  width: 337px;
+  position: relative;
+}
+.team-text {
+  position: absolute;
+  top: 0;
+  color: #333333;
+  font-size: 20.4px;
+  line-height: 33.6px;
+  font-family: Barlow, sans-serif;
+  font-weight: 400;
+  height: 400px;
+  width: 337px;
+  background-color: #c1c1c1;
+}
+.team-box:hover .team-text {
+  background-color: transparent;
+  transition: all 0.6s;
+}
+.production-box {
+  margin-left: -15px;
+}
+.production-image {
+  background-image: url(../images/06.jpg);
+  height: 400px;
+  width: 337px;
+  position: relative;
+}
+.production-text {
+  position: absolute;
+  top: 0;
+  color: #333333;
+  font-size: 20.4px;
+  line-height: 33.6px;
+  font-family: Barlow, sans-serif;
+  font-weight: 400;
+  height: 400px;
+  width: 337px;
+  background-color: #ffda00;
+}
+.production-box:hover .production-text {
+  background-color: transparent;
+  transition: all 0.6s;
+}
+
+/* !PRODUCTION SECTION ENDED */
+/* ?PROFESSIONAL EXPERIENCE SECTION STARTED */
+.pro-row {
+  background-color: #efeeee;
+}
+.left-text-box {
+  background-color: #ffda00;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 337px;
+}
+.image-right-main:hover .left-text-box {
+  width: 675px;
+  transition-duration: 0.6s;
+  transition: all 1s;
+  background-color: transparent;
+}
+.pro-text {
+  background-color: #333333;
+  height: 400px;
+  margin-left: -28px;
+}
+/* !PROFESSIONAL EXPERIENCE SECTION ENDED */
+/* ?TRANSFORM PRODUCTION SECTION STARTED */
+.transform-production-main {
+  background-color: #efeeee;
+  position: relative;
+}
+.transform-side-text {
+  position: absolute;
+  transform: rotate(90deg);
+  top: 41%;
+  left: 0;
+}
+/* !TRANSFORM SECTION ENDED */
+/* ?MANUFAXTURER SECTION STARTED */
+.manufacture-container {
+  height: 773px;
+  background-color: #2a2a2a;
+}
+
+.arrow {
+  height: 68px;
+  width: 68px;
+  background-color: #ffda00;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.card img:hover {
+  transform: scale(1.1);
+  transition: all 3s;
+}
+.arrow:hover img {
+  transform: translateX(8px);
+  transition: all 0.5s;
+}
+/* !Manufacturer Section Ended */
+/* ?Team Section Started */
+.team-image {
+  background-image: url(../images/04.jpg);
+  height: 494px;
+  width: 675px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.side-text-team {
+  height: 78px;
+  width: 300px;
+  background-color: #ffda00;
+  bottom: 0;
+  top: 62%;
+  left: -17%;
+  transform: rotate(90deg);
+}
+.side-text-team:hover span {
+  transform: translateY(-9px);
+  transition: all 1s;
+}
+/* !OUR TEAM SECTION ENDED */
+/* ?INDUSTRY SECTION STARTED */
+.action {
+  background-color: #efeeee;
+  height: 770px;
+}
+.action-img {
+  background-image: url(../images/CONTAINER-BG.jpg);
+  height: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}
+.video-icon {
+  height: 80px;
+  width: 80px;
+  background-color: #ffda00;
+  top: 45%;
+  left: 45%;
+}
+.video-icon:hover {
+  transform: scale(1.1);
+  transition: all 0.4s;
+}
+.action-bottom {
+  height: 385px;
+  width: 100%;
+  background-color: #ffda00;
+  bottom: 0;
+}
+/* !INDUSTRY ACTION SECTION ENDED */
+/* ?CONTACT US SECTION STARTED */
+.contact-container {
+  background-color: #232323;
+  height: 800px;
+  width: 500px;
+  overflow: hidden;
+}
+.bottom-text-form {
+  height: 68px;
+  width: 420px;
+  background-color: #ffda00;
+  color: #232323;
+}
+.bottom-text-form:hover img {
+  transform: translateX(15px);
+  transition: all 0.5s;
+}
+.contact-us-img {
+  background-image: url(../images/01.jpg);
+  width: 645px;
+  height: 800px;
+}
+/* !CONTACT US SECTION ENDED */
+/* ?FOOTER SECTION STARTED */
+.footer-arrow{
+  height: 56px;
+  width: 80px;
+  background-color: #ffda00;
+}
+.footer-arrow:hover img{
+transform: translateX(5px);
+transition: all 0.6s  ;
+}
+/* ?Footer Icon Started */
+.container-icon{
+  background-color:#efeeee;
+  height: 137px;
+
+}
+.social-icons img{
+  opacity: 0.3;
+}
+.social-icons img:hover{
+  opacity: 1;
+  transition: all 0.5s;
+}
